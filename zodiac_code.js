@@ -42,10 +42,10 @@ switch(month){
 //January
 case 1:
 if ((day > 0) && (day <= 20)){
-console.log('You are a Capricorn!\n');
+console.log('You are a Capricorn.\n');
 }
 else if ((day > 20) && (day <= 31)){
-console.log('You are an Aquarius!\n');
+console.log('You are an Aquarius.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -55,10 +55,10 @@ break;
 //February
 case 2:
 if ((day > 0) && (day <= 19)){
-console.log('You are an Aquarius!\n');
+console.log('You are an Aquarius.\n');
 }
 else if ((day > 19) && (day <= 29)){
-console.log('You are a Pisces!\n');
+console.log('You are a Pisces.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -68,10 +68,10 @@ break;
 //March
 case 3:
 if ((day > 0) && (day <= 20)){
-console.log('You are a Pisces!\n');
+console.log('You are a Pisces.\n');
 }
 else if ((day > 20) && (day <= 31)){
-console.log('You are an Aries!\n');
+console.log('You are an Aries.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -81,10 +81,10 @@ break;
 //April
 case 4:
 if ((day > 0) && (day <= 19)){
-console.log('You are an Aries!\n');
+console.log('You are an Aries.\n');
 }
 else if ((day > 19) && (day <= 30)){
-console.log('You are a Taurus!\n');
+console.log('You are a Taurus.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -94,10 +94,10 @@ break;
 //May
 case 5:
 if ((day > 0) && (day <= 20)){
-console.log('You are a Taurus!\n');
+console.log('You are a Taurus.\n');
 }
 else if ((day > 20) && (day <= 31)){
-console.log('You are a Gemini!\n');
+console.log('You are a Gemini.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -106,10 +106,10 @@ break;
 //June
 case 6:
 if ((day > 0) && (day <= 21)){
-console.log('You are a Gemini!\n');
+console.log('You are a Gemini.\n');
 }
 else if ((day > 21) && (day <= 30)){
-console.log('You are a Cancer!\n');
+console.log('You are a Cancer.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -119,10 +119,10 @@ break;
 //July
 case 7:
 if ((day > 0) && (day <= 23)){
-console.log('You are a Cancer!\n');
+console.log('You are a Cancer.\n');
 }
 else if ((day > 23) && (day <= 31)){
-console.log('You are a Leo!\n');
+console.log('You are a Leo.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -132,10 +132,10 @@ break;
 //August
 case 8:
 if ((day > 0) && (day <= 23)){
-console.log('You are a Leo!\n');
+console.log('You are a Leo.\n');
 }
 else if ((day > 23) && (day <= 31)){
-console.log('You are a Virgo!\n');
+console.log('You are a Virgo.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -145,10 +145,10 @@ break;
 //September
 case 9:
 if ((day > 0) && (day <= 22)){
-console.log('You are a Virgo!\n');
+console.log('You are a Virgo.\n');
 }
 else if ((day > 22) && (day <= 30)){
-console.log('You are a Libra!\n');
+console.log('You are a Libra.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -158,10 +158,10 @@ break;
 //October
 case 10:
 if ((day > 0) && (day <= 22)){
-console.log('You are a Libra!\n');
+console.log('You are a Libra.\n');
 }
 else if ((day > 22) && (day <= 31)){
-console.log('You are a Scorpio!\n');
+console.log('You are a Scorpio.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -171,10 +171,10 @@ break;
 //November
 case 11:
 if ((day > 0) && (day <= 22)){
-console.log('You are a Scorpio!\n');
+console.log('You are a Scorpio.\n');
 }
 else if ((day > 22) && (day <= 30)){
-console.log('You are a Sagitarius!\n');
+console.log('You are a Sagitarius.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -184,10 +184,10 @@ break;
 //December
 case 12:
 if ((day > 0) && (day <= 20)){
-console.log('You are a Sagitarius!\n');
+console.log('You are a Sagitarius.\n');
 }
 else if ((day > 20) && (day <= 31)){
-console.log('You are a Capricorn!\n');
+console.log('You are a Capricorn.\n');
 }
 else{
 console.log('That is not a valid date.\n');
@@ -209,42 +209,42 @@ var symbol = year % 12;
 
 switch (symbol){
 case 0:
-console.log('You are a Monkey!');
+console.log('Your sign is the Monkey.');
 break;
 case 1:
-console.log('You are a Rooster!');
+console.log('Your sign is the Rooster.');
 break;
 case 2:
-console.log('You are a Dog!');
+console.log('Your sign is the Dog.');
 break;
 case 3:
-console.log('You are a Pig!');
+console.log('Your sign is the Pig.');
 break;
 case 4:
-console.log('You are a Rat!');
+console.log('Your sign is the Rat.');
 break;
 case 5:
-console.log('You are an Ox!');
+console.log('Your sign is the Ox.');
 break;
 case 6:
-console.log('You are a Tiger!');
+console.log('Your sign is the Tiger.');
 break;
 case 7:
-console.log('You are a Rabbit!');
+console.log('Your sign is the Rabbit.');
 break;
 case 8:
-console.log('You are a Dragon!');
+console.log('Your sign is the Dragon.');
 break;
 case 9:
-console.log('You are a Snake!');
+console.log('You are a Snake.');
 break;
 case 10:
-console.log('You are a Horse!');
+console.log('You are a Horse.');
 break;
 case 11:
-console.log('You are a Sheep!');
+console.log('You are a Sheep.');
 break;
 default:
 console.log('That is not a valid date.');
-}
-}
+};
+};
